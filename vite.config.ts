@@ -105,7 +105,7 @@ export default defineConfig(({ mode }) => {
         beforeWriteFile(filePath, content) {
           // Flatten dist/components/<Name>/… → dist/<Name>/…
           return {
-            content,
+            content: content.replaceAll("./components/", "./"),
             filePath: filePath.replace("/dist/components/", "/dist/")
           }
         },

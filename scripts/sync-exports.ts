@@ -13,25 +13,25 @@ const components = readdirSync(componentsDir)
   .filter((n) => statSync(resolve(componentsDir, n)).isDirectory())
   .sort()
 
+const exportTarget = (types: string, importPath: string) =>
+  Object.fromEntries([
+    ["types", types],
+    ["import", importPath]
+  ]) as { import: string; types: string }
+
 const componentExports = Object.fromEntries(
   components.map((name) => [
     `./${name}`,
-    {
-      import: `./dist/${name}/index.js`,
-      types: `./dist/${name}/index.d.ts`
-    }
+    exportTarget(`./dist/${name}/index.d.ts`, `./dist/${name}/index.js`)
   ])
 )
 
 const exportsMap = {
-  ".": {
-    import: "./dist/index.js",
-    types: "./dist/index.d.ts"
-  },
-  "./utils": {
-    import: "./dist/utils/index.js",
-    types: "./dist/utils/index.d.ts"
-  },
+  ".": exportTarget("./dist/index.d.ts", "./dist/index.js"),
+  "./utils": exportTarget(
+    "./dist/utils/index.d.ts",
+    "./dist/utils/index.js"
+  ),
   ...componentExports,
   "./package.json": "./package.json",
   "./styles/default-theme.css": "./dist/styles/default-theme.css",

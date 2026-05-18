@@ -18,236 +18,236 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     },
     "./utils": {
-      "import": "./dist/utils/index.js",
-      "types": "./dist/utils/index.d.ts"
+      "types": "./dist/utils/index.d.ts",
+      "import": "./dist/utils/index.js"
     },
     "./AlertDialog": {
-      "import": "./dist/AlertDialog/index.js",
-      "types": "./dist/AlertDialog/index.d.ts"
+      "types": "./dist/AlertDialog/index.d.ts",
+      "import": "./dist/AlertDialog/index.js"
     },
     "./Badge": {
-      "import": "./dist/Badge/index.js",
-      "types": "./dist/Badge/index.d.ts"
+      "types": "./dist/Badge/index.d.ts",
+      "import": "./dist/Badge/index.js"
     },
     "./Breadcrumbs": {
-      "import": "./dist/Breadcrumbs/index.js",
-      "types": "./dist/Breadcrumbs/index.d.ts"
+      "types": "./dist/Breadcrumbs/index.d.ts",
+      "import": "./dist/Breadcrumbs/index.js"
     },
     "./Button": {
-      "import": "./dist/Button/index.js",
-      "types": "./dist/Button/index.d.ts"
+      "types": "./dist/Button/index.d.ts",
+      "import": "./dist/Button/index.js"
     },
     "./Calendar": {
-      "import": "./dist/Calendar/index.js",
-      "types": "./dist/Calendar/index.d.ts"
+      "types": "./dist/Calendar/index.d.ts",
+      "import": "./dist/Calendar/index.js"
     },
     "./Card": {
-      "import": "./dist/Card/index.js",
-      "types": "./dist/Card/index.d.ts"
+      "types": "./dist/Card/index.d.ts",
+      "import": "./dist/Card/index.js"
     },
     "./Checkbox": {
-      "import": "./dist/Checkbox/index.js",
-      "types": "./dist/Checkbox/index.d.ts"
+      "types": "./dist/Checkbox/index.d.ts",
+      "import": "./dist/Checkbox/index.js"
     },
     "./CheckboxGroup": {
-      "import": "./dist/CheckboxGroup/index.js",
-      "types": "./dist/CheckboxGroup/index.d.ts"
+      "types": "./dist/CheckboxGroup/index.d.ts",
+      "import": "./dist/CheckboxGroup/index.js"
     },
     "./ColorArea": {
-      "import": "./dist/ColorArea/index.js",
-      "types": "./dist/ColorArea/index.d.ts"
+      "types": "./dist/ColorArea/index.d.ts",
+      "import": "./dist/ColorArea/index.js"
     },
     "./ColorField": {
-      "import": "./dist/ColorField/index.js",
-      "types": "./dist/ColorField/index.d.ts"
+      "types": "./dist/ColorField/index.d.ts",
+      "import": "./dist/ColorField/index.js"
     },
     "./ColorPicker": {
-      "import": "./dist/ColorPicker/index.js",
-      "types": "./dist/ColorPicker/index.d.ts"
+      "types": "./dist/ColorPicker/index.d.ts",
+      "import": "./dist/ColorPicker/index.js"
     },
     "./ColorSlider": {
-      "import": "./dist/ColorSlider/index.js",
-      "types": "./dist/ColorSlider/index.d.ts"
+      "types": "./dist/ColorSlider/index.d.ts",
+      "import": "./dist/ColorSlider/index.js"
     },
     "./ColorSwatch": {
-      "import": "./dist/ColorSwatch/index.js",
-      "types": "./dist/ColorSwatch/index.d.ts"
+      "types": "./dist/ColorSwatch/index.d.ts",
+      "import": "./dist/ColorSwatch/index.js"
     },
     "./ColorSwatchPicker": {
-      "import": "./dist/ColorSwatchPicker/index.js",
-      "types": "./dist/ColorSwatchPicker/index.d.ts"
+      "types": "./dist/ColorSwatchPicker/index.d.ts",
+      "import": "./dist/ColorSwatchPicker/index.js"
     },
     "./ColorThumb": {
-      "import": "./dist/ColorThumb/index.js",
-      "types": "./dist/ColorThumb/index.d.ts"
+      "types": "./dist/ColorThumb/index.d.ts",
+      "import": "./dist/ColorThumb/index.js"
     },
     "./ColorWheel": {
-      "import": "./dist/ColorWheel/index.js",
-      "types": "./dist/ColorWheel/index.d.ts"
+      "types": "./dist/ColorWheel/index.d.ts",
+      "import": "./dist/ColorWheel/index.js"
     },
     "./ComboBox": {
-      "import": "./dist/ComboBox/index.js",
-      "types": "./dist/ComboBox/index.d.ts"
+      "types": "./dist/ComboBox/index.d.ts",
+      "import": "./dist/ComboBox/index.js"
     },
     "./CommandPalette": {
-      "import": "./dist/CommandPalette/index.js",
-      "types": "./dist/CommandPalette/index.d.ts"
+      "types": "./dist/CommandPalette/index.d.ts",
+      "import": "./dist/CommandPalette/index.js"
     },
     "./DateField": {
-      "import": "./dist/DateField/index.js",
-      "types": "./dist/DateField/index.d.ts"
+      "types": "./dist/DateField/index.d.ts",
+      "import": "./dist/DateField/index.js"
     },
     "./DatePicker": {
-      "import": "./dist/DatePicker/index.js",
-      "types": "./dist/DatePicker/index.d.ts"
+      "types": "./dist/DatePicker/index.d.ts",
+      "import": "./dist/DatePicker/index.js"
     },
     "./DateRangePicker": {
-      "import": "./dist/DateRangePicker/index.js",
-      "types": "./dist/DateRangePicker/index.d.ts"
+      "types": "./dist/DateRangePicker/index.d.ts",
+      "import": "./dist/DateRangePicker/index.js"
     },
     "./Dialog": {
-      "import": "./dist/Dialog/index.js",
-      "types": "./dist/Dialog/index.d.ts"
+      "types": "./dist/Dialog/index.d.ts",
+      "import": "./dist/Dialog/index.js"
     },
     "./Disclosure": {
-      "import": "./dist/Disclosure/index.js",
-      "types": "./dist/Disclosure/index.d.ts"
+      "types": "./dist/Disclosure/index.d.ts",
+      "import": "./dist/Disclosure/index.js"
     },
     "./DisclosureGroup": {
-      "import": "./dist/DisclosureGroup/index.js",
-      "types": "./dist/DisclosureGroup/index.d.ts"
+      "types": "./dist/DisclosureGroup/index.d.ts",
+      "import": "./dist/DisclosureGroup/index.js"
     },
     "./DropZone": {
-      "import": "./dist/DropZone/index.js",
-      "types": "./dist/DropZone/index.d.ts"
+      "types": "./dist/DropZone/index.d.ts",
+      "import": "./dist/DropZone/index.js"
     },
     "./Field": {
-      "import": "./dist/Field/index.js",
-      "types": "./dist/Field/index.d.ts"
+      "types": "./dist/Field/index.d.ts",
+      "import": "./dist/Field/index.js"
     },
     "./FieldButton": {
-      "import": "./dist/FieldButton/index.js",
-      "types": "./dist/FieldButton/index.d.ts"
+      "types": "./dist/FieldButton/index.d.ts",
+      "import": "./dist/FieldButton/index.js"
     },
     "./Form": {
-      "import": "./dist/Form/index.js",
-      "types": "./dist/Form/index.d.ts"
+      "types": "./dist/Form/index.d.ts",
+      "import": "./dist/Form/index.js"
     },
     "./GridList": {
-      "import": "./dist/GridList/index.js",
-      "types": "./dist/GridList/index.d.ts"
+      "types": "./dist/GridList/index.d.ts",
+      "import": "./dist/GridList/index.js"
     },
     "./Link": {
-      "import": "./dist/Link/index.js",
-      "types": "./dist/Link/index.d.ts"
+      "types": "./dist/Link/index.d.ts",
+      "import": "./dist/Link/index.js"
     },
     "./ListBox": {
-      "import": "./dist/ListBox/index.js",
-      "types": "./dist/ListBox/index.d.ts"
+      "types": "./dist/ListBox/index.d.ts",
+      "import": "./dist/ListBox/index.js"
     },
     "./Menu": {
-      "import": "./dist/Menu/index.js",
-      "types": "./dist/Menu/index.d.ts"
+      "types": "./dist/Menu/index.d.ts",
+      "import": "./dist/Menu/index.js"
     },
     "./Meter": {
-      "import": "./dist/Meter/index.js",
-      "types": "./dist/Meter/index.d.ts"
+      "types": "./dist/Meter/index.d.ts",
+      "import": "./dist/Meter/index.js"
     },
     "./Modal": {
-      "import": "./dist/Modal/index.js",
-      "types": "./dist/Modal/index.d.ts"
+      "types": "./dist/Modal/index.d.ts",
+      "import": "./dist/Modal/index.js"
     },
     "./NumberField": {
-      "import": "./dist/NumberField/index.js",
-      "types": "./dist/NumberField/index.d.ts"
+      "types": "./dist/NumberField/index.d.ts",
+      "import": "./dist/NumberField/index.js"
     },
     "./Popover": {
-      "import": "./dist/Popover/index.js",
-      "types": "./dist/Popover/index.d.ts"
+      "types": "./dist/Popover/index.d.ts",
+      "import": "./dist/Popover/index.js"
     },
     "./ProgressBar": {
-      "import": "./dist/ProgressBar/index.js",
-      "types": "./dist/ProgressBar/index.d.ts"
+      "types": "./dist/ProgressBar/index.d.ts",
+      "import": "./dist/ProgressBar/index.js"
     },
     "./RadioGroup": {
-      "import": "./dist/RadioGroup/index.js",
-      "types": "./dist/RadioGroup/index.d.ts"
+      "types": "./dist/RadioGroup/index.d.ts",
+      "import": "./dist/RadioGroup/index.js"
     },
     "./RangeCalendar": {
-      "import": "./dist/RangeCalendar/index.js",
-      "types": "./dist/RangeCalendar/index.d.ts"
+      "types": "./dist/RangeCalendar/index.d.ts",
+      "import": "./dist/RangeCalendar/index.js"
     },
     "./Resizable": {
-      "import": "./dist/Resizable/index.js",
-      "types": "./dist/Resizable/index.d.ts"
+      "types": "./dist/Resizable/index.d.ts",
+      "import": "./dist/Resizable/index.js"
     },
     "./SearchField": {
-      "import": "./dist/SearchField/index.js",
-      "types": "./dist/SearchField/index.d.ts"
+      "types": "./dist/SearchField/index.d.ts",
+      "import": "./dist/SearchField/index.js"
     },
     "./Select": {
-      "import": "./dist/Select/index.js",
-      "types": "./dist/Select/index.d.ts"
+      "types": "./dist/Select/index.d.ts",
+      "import": "./dist/Select/index.js"
     },
     "./Separator": {
-      "import": "./dist/Separator/index.js",
-      "types": "./dist/Separator/index.d.ts"
+      "types": "./dist/Separator/index.d.ts",
+      "import": "./dist/Separator/index.js"
     },
     "./Slider": {
-      "import": "./dist/Slider/index.js",
-      "types": "./dist/Slider/index.d.ts"
+      "types": "./dist/Slider/index.d.ts",
+      "import": "./dist/Slider/index.js"
     },
     "./Switch": {
-      "import": "./dist/Switch/index.js",
-      "types": "./dist/Switch/index.d.ts"
+      "types": "./dist/Switch/index.d.ts",
+      "import": "./dist/Switch/index.js"
     },
     "./Table": {
-      "import": "./dist/Table/index.js",
-      "types": "./dist/Table/index.d.ts"
+      "types": "./dist/Table/index.d.ts",
+      "import": "./dist/Table/index.js"
     },
     "./Tabs": {
-      "import": "./dist/Tabs/index.js",
-      "types": "./dist/Tabs/index.d.ts"
+      "types": "./dist/Tabs/index.d.ts",
+      "import": "./dist/Tabs/index.js"
     },
     "./TagGroup": {
-      "import": "./dist/TagGroup/index.js",
-      "types": "./dist/TagGroup/index.d.ts"
+      "types": "./dist/TagGroup/index.d.ts",
+      "import": "./dist/TagGroup/index.js"
     },
     "./TextField": {
-      "import": "./dist/TextField/index.js",
-      "types": "./dist/TextField/index.d.ts"
+      "types": "./dist/TextField/index.d.ts",
+      "import": "./dist/TextField/index.js"
     },
     "./TimeField": {
-      "import": "./dist/TimeField/index.js",
-      "types": "./dist/TimeField/index.d.ts"
+      "types": "./dist/TimeField/index.d.ts",
+      "import": "./dist/TimeField/index.js"
     },
     "./Toast": {
-      "import": "./dist/Toast/index.js",
-      "types": "./dist/Toast/index.d.ts"
+      "types": "./dist/Toast/index.d.ts",
+      "import": "./dist/Toast/index.js"
     },
     "./ToggleButton": {
-      "import": "./dist/ToggleButton/index.js",
-      "types": "./dist/ToggleButton/index.d.ts"
+      "types": "./dist/ToggleButton/index.d.ts",
+      "import": "./dist/ToggleButton/index.js"
     },
     "./ToggleButtonGroup": {
-      "import": "./dist/ToggleButtonGroup/index.js",
-      "types": "./dist/ToggleButtonGroup/index.d.ts"
+      "types": "./dist/ToggleButtonGroup/index.d.ts",
+      "import": "./dist/ToggleButtonGroup/index.js"
     },
     "./Toolbar": {
-      "import": "./dist/Toolbar/index.js",
-      "types": "./dist/Toolbar/index.d.ts"
+      "types": "./dist/Toolbar/index.d.ts",
+      "import": "./dist/Toolbar/index.js"
     },
     "./Tooltip": {
-      "import": "./dist/Tooltip/index.js",
-      "types": "./dist/Tooltip/index.d.ts"
+      "types": "./dist/Tooltip/index.d.ts",
+      "import": "./dist/Tooltip/index.js"
     },
     "./Tree": {
-      "import": "./dist/Tree/index.js",
-      "types": "./dist/Tree/index.d.ts"
+      "types": "./dist/Tree/index.d.ts",
+      "import": "./dist/Tree/index.js"
     },
     "./package.json": "./package.json",
     "./styles/default-theme.css": "./dist/styles/default-theme.css",
