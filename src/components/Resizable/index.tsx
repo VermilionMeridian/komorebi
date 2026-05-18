@@ -11,7 +11,15 @@ import {
 } from "react-resizable-panels"
 import { cn } from "@/utils"
 
-export function ResizableGroup({ className, ...props }: GroupProps) {
+export type ResizableGroupProps = GroupProps
+
+export type ResizablePanelProps = PanelProps
+
+export type ResizableHandleProps = SeparatorProps & {
+  withHandle?: boolean
+}
+
+export function ResizableGroup({ className, ...props }: ResizableGroupProps) {
   return (
     <Group
       className={cn(
@@ -24,7 +32,7 @@ export function ResizableGroup({ className, ...props }: GroupProps) {
   )
 }
 
-export function ResizablePanel({ ...props }: PanelProps) {
+export function ResizablePanel({ ...props }: ResizablePanelProps) {
   return <Panel data-slot="resizable-panel" {...props} />
 }
 
@@ -32,9 +40,7 @@ export function ResizableHandle({
   className,
   withHandle,
   ...props
-}: SeparatorProps & {
-  withHandle?: boolean
-}) {
+}: ResizableHandleProps) {
   return (
     <Separator
       className={cn(
