@@ -13,7 +13,7 @@ const styles = tv({
   variants: {
     isSelected: {
       false:
-        "bg-secondary text-secondary-foreground hover:bg-secondary/80 pressed:bg-secondary/70 forced-colors:bg-[ButtonFace]! forced-colors:text-[ButtonText]!",
+        "bg-secondary text-secondary-foreground hover:bg-[color-mix(in_oklch,var(--secondary),var(--foreground)_6%)] pressed:bg-[color-mix(in_oklch,var(--secondary),var(--foreground)_10%)] forced-colors:bg-[ButtonFace]! forced-colors:text-[ButtonText]!",
       true: "bg-primary text-primary-foreground hover:bg-primary/80 pressed:bg-primary/70 forced-colors:bg-[Highlight]! forced-colors:text-[HighlightText]!"
     }
   }

@@ -35,7 +35,7 @@ const button = tv({
       outline:
         "border-input bg-background hover:bg-muted hover:text-foreground pressed:bg-muted/80 dark:bg-input/30",
       secondary:
-        "bg-secondary text-secondary-foreground hover:bg-secondary/80 pressed:bg-secondary/70"
+        "bg-secondary text-secondary-foreground hover:bg-[color-mix(in_oklch,var(--secondary),var(--foreground)_6%)] pressed:bg-[color-mix(in_oklch,var(--secondary),var(--foreground)_10%)]"
     }
   }
 })
