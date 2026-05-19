@@ -11,7 +11,7 @@ import { tv, type VariantProps } from "tailwind-variants"
 import { cn } from "@/utils"
 
 const button = tv({
-  base: "group/button focus-visible:border-ring focus-visible:ring-ring/30 pressed:translate-y-px relative inline-flex shrink-0 cursor-default items-center justify-center gap-1.5 overflow-hidden rounded-4xl border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:ring-3 disabled:pointer-events-none disabled:opacity-50 forced-colors:outline-[Highlight] [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
+  base: "group/button focus-visible:border-ring focus-visible:ring-ring/30 relative inline-flex shrink-0 cursor-default items-center justify-center gap-1.5 overflow-hidden rounded-4xl border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:ring-3 disabled:pointer-events-none disabled:opacity-50 forced-colors:outline-[Highlight] [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
   defaultVariants: { size: "default", variant: "default" },
   variants: {
     size: {
@@ -31,7 +31,7 @@ const button = tv({
         "bg-destructive/10 text-destructive hover:bg-destructive/20 pressed:bg-destructive/30 dark:bg-destructive/20 dark:hover:bg-destructive/30",
       ghost:
         "text-foreground hover:bg-muted pressed:bg-muted/80 dark:hover:bg-muted/50",
-      link: "text-primary pressed:translate-y-0 underline-offset-4 hover:underline",
+      link: "text-primary underline-offset-4 hover:underline",
       outline:
         "border-input bg-background hover:bg-muted hover:text-foreground pressed:bg-muted/80 dark:bg-input/30",
       secondary:

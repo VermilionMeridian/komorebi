@@ -15,7 +15,7 @@ import { composeTailwindRenderProps } from "@/utils"
 import { Checkbox } from "../Checkbox"
 
 const itemStyles = tv({
-  base: "group/tree-item border-border bg-background text-foreground focus-visible:ring-ring/30 hover:bg-muted pressed:bg-muted/80 pressed:translate-y-px selected:bg-accent selected:text-accent-foreground relative flex cursor-default border-b px-3 py-1 text-sm -outline-offset-2 outline-none select-none first:rounded-t-3xl first:border-t-0 last:rounded-b-3xl last:border-b-0 focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50",
+  base: "group/tree-item border-border bg-background text-foreground focus-visible:ring-ring/30 hover:bg-muted pressed:bg-muted/80 selected:bg-accent selected:text-accent-foreground relative flex cursor-default border-b px-3 py-1 text-sm -outline-offset-2 outline-none select-none first:rounded-t-3xl first:border-t-0 last:rounded-b-3xl last:border-b-0 focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50",
   variants: {
     isDisabled: {
       true: "z-10"

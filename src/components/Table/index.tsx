@@ -134,7 +134,7 @@ export function TableBody<T extends object>(props: TableBodyProps<T>) {
 }
 
 const rowStyles = tv({
-  base: "group/row text-foreground hover:bg-muted pressed:bg-muted/80 pressed:translate-y-px selected:bg-accent selected:text-accent-foreground focus-visible:ring-ring/30 border-b-border relative cursor-default border-b text-sm -outline-offset-2 outline-none select-none last:rounded-b-3xl last:border-b-0 focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50"
+  base: "group/row text-foreground hover:bg-muted pressed:bg-muted/80 selected:bg-accent selected:text-accent-foreground focus-visible:ring-ring/30 border-b-border relative cursor-default border-b text-sm -outline-offset-2 outline-none select-none last:rounded-b-3xl last:border-b-0 focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50"
 })
 
 export function Row<T extends object>({
